@@ -1,7 +1,13 @@
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+
+
+
 function App() {
   return (
     <div className="App">
-    <p className='bg-[#b2d6fa]'> HELLO</p>
+    <Navbar> </Navbar>
+   <Hero/>
     </div>
   );
 }
